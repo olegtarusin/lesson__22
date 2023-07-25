@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework 22</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <h1 class="header__title">homework number 22</h1>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main__container">
+                <div class="main__box box">
+                    <h2 class="box__title">Домашка по второму ролику</h2>
+                    <a href="https://www.youtube.com/watch?v=uOeFpp872MY" class="box__link" target="_blank">ссылка на
+                        ролик2</a>
+                    <ul class="box__exercises">
+                        <li class="box__item item--right">
+                            <strong class="box__answer">console.log('учим js')</strong>
+                            <p class="box__text">Правельный вариант но в конце стоит поставить;</p>
+                        </li>
+                        <li class="box__item item--almost-right">
+                            <strong class="box__answer">console.log('учим') <br>console.log(' js')</strong>
+                            <p class="box__text">Так то код прочитается но при сжатии будет ошибка</p>
+                        </li>
+                        <li class="box__item">
+                            <strong class="box__answer">console.log('учим') console.log(' js')</strong>
+                            <p class="box__text">Нет знаков припинания между командами</p>
+                        </li>
+                        <li class="box__item">
+                            <strong class="box__answer">console.log('учим); <br>console.log(' js');</strong>
+                            <p class="box__text">Не закрыта скобка</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main__box box">
+                    <h2 class="box__title">Домашка по третьему ролику</h2>
+                    <a href="https://www.youtube.com/watch?v=5V8IeATHr4w" class="box__link" target="_blank">ссылка на
+                        ролик 3</a>
+                    <ul class="box__exercises">
+                        <li class="box__item ">
+                            <strong class="box__answer">let user = 'Вася' let age = 36</strong>
+                            <p class="box__text">Проблемы с знаками препинания</p>
+                        </li>
+                        <li class="box__item item--almost-right">
+                            <strong class="box__answer">let myage = 36</strong>
+                            <p class="box__text">в принцепе правельно но по пунктуации не верное имя правельнее myAge
+                            </p>
+                        </li>
+                        <li class="box__item item--right">
+                            <strong class="box__answer">const BLOCK_SIZE = 14 + 50;</strong>
+                            <p class="box__text">верно</p>
+                        </li>
+                        <li class="box__item item--right">
+                            <strong class="box__answer">const BLOCK_HIGHT = 100;</strong>
+                            <p class="box__text">верно</p>
+                        </li>
+                        <li class="box__item item--right">
+                            <strong class="box__answer">if (true) {<br>
+                                var size = 15;<br>
+                                }<br>
+                                console.log(size);</strong>
+                            <p class="box__text">верно потомучто var видно вне блока где он был обьявлен</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main__box box">
+                    <h2 class="box__title">Домашка по четвертому ролику</h2>
+                    <a href="https://www.youtube.com/watch?v=g7jDucodUzQ" class="box__link" target="_blank">ссылка на
+                        ролик4</a>
+                    <ul class="box__exercises">
+                        <li class="box__item item--almost-right">
+                            <strong class="box__answer">let userAge = 36 <br>let userInfo = "Фрилансер
+                                ${userAge}"; <br>console.log(userInfo)</strong>
+                            <p class="box__text">Ошибки не будет но импорта данных тоже , поскольку обычные и двойные
+                                кавычки не передают значений переменных.Надпись выведет дословно</p>
+                        </li>
+                        <li class="box__item ">
+                            <strong class="box__answer">let userHight = 145/0 <br>выведет NaN
+                                <br>console.log(userHight)</strong>
+                            <p class="box__text">Не верно, ответ будет инфинити так как нан выдает при деление разных
+                                типов</p>
+                        </li>
+                        <li class="box__item">
+                            <strong class="box__answer">let userName; <br>ответ будет null <br>
+                                console.log(userName)</strong>
+                            <p class="box__text">Не верно , ответом будет андефайнед , поскольку переменная существует
+                            </p>
+                        </li>
+                        <li class="box__item item--right">
+                            <strong class="box__answer">let userSize = "45" / "8" <br> ответ будет number
+                                <br>console.log(typeof(userSize))</strong>
+                            <p class="box__text">правельно, поскольку при деление автоматически переменные стают намбер
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
